@@ -28,6 +28,7 @@
                               (:file "naming")
                               #+sbcl (:file "naming-sbcl")
                               #+ccl (:file "naming-ccl")
+                              #+lispworks (:file "naming-lispworks")
                               (:file "appender-base")
                               (:file "hierarchy-base")
                               (:file "hierarchy")

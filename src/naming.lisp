@@ -152,7 +152,7 @@ values, for example for the :AROUND method FOO with lambda list
 of ((OBJ1 BAR) (OPTION (EQL :BAZ)) OBJ3) should strive to return
 '(FOO AROUND BAR BAZ) "))
 
-#-(or sbcl ccl)
+#-(or sbcl ccl lispworks)
 (defmethod enclosing-scope-block-name (package env)
   "Default method that always return NIL"
   (declare (ignore package env)))
